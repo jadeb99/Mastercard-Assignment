@@ -1,0 +1,41 @@
+body {
+	background-color: #fff0f5;
+	width: 750px;
+	margin: auto;
+}
+
+p {
+	font-family: verdana;
+}
+
+label{
+	font-family: verdana;
+	display:block;
+	margin-bottom: 10px;
+}
+
+input {
+	font-family: verdana;
+	color: black;
+}
+
+fieldset {
+	width: 500px;
+	margin: auto;
+	padding: 20px;
+	-webkit-border-radius: 20px;
+}
+
+legend {
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+select {
+	font-family: verdana;
+}
+
+input:required:invalid {
+	border-color: red;
+}
